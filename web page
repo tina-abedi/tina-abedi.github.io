@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      h1 {
+        margin-bottom: 5px;
+      }
+      .tagline {
+        color: #555;
+      }
+      .section-title {
+        margin-top: 40px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+      }
+      .project {
+        margin-bottom: 20px;
+      }
+      .project-title {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Your Name</h1>
+      <p class="tagline">Your role (e.g., Aspiring Developer | Data Enthusiast)</p>
+    </header>
+
+    <section>
+      <h2 class="section-title">About Me</h2>
+      <p>
+        Write a short paragraph about who you are, what you're interested in,
+        and what you're working toward.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project">
+        <div class="project-title">Project One</div>
+        <p>Short description of what this project does and why it matters.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <!-- Optional: <a href="#">View project</a> | <a href="#">Source code</a> -->
+      </div>
+
+      <div class="project">
+        <div class="project-title">Project Two</div>
+        <p>Another short description. You can add as many as you like.</p>
+        <p><strong>Tech:</strong> Python, SQL</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+      <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn</a></p>
+    </section>
+  </body>
+</html>
