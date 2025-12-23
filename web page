@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: Actor, sans-serif;
-        max-width: 800px;
+        max-width: 900px;
         margin: 40px auto;
         padding: 0 20px;
         line-height: 1.6;
@@ -20,11 +20,11 @@
         margin-bottom: 5px;
       }
       .tagline {
-        color: #555;
+        color: #1e90ff;
       }
       .section-title {
         margin-top: 40px;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 2px solid #1e90ff;
         padding-bottom: 5px;
       }
       .project {
@@ -37,8 +37,8 @@
   </head>
   <body>
     <header>
-      <h1>Your Name</h1>
-      <p class="tagline">Your role (e.g., Aspiring Developer | Data Enthusiast)</p>
+      <h1>Tina Abedi</h1>
+      <p class="tagline">UCLA Class of 2026 Grad | Cognitive Science major and Statistics + Data Science</p>
     </header>
 
     <section>
