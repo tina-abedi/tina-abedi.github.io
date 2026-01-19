@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website.
 
-🔗 **Live Website:** https://yourusername.github.io
+🔗 **Live Website:** https://tina-abedi.github.io
 
 ---
 
