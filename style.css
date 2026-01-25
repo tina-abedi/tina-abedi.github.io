@@ -51,13 +51,15 @@ body {
   font-style: italic;
 }
 
+
 .profile-img {
-  height: 200px;          
-  width: 200px;              
-  border-radius: 50%;       
-  object-fit: cover;   
-  border: 3px solid var(--accent); 
-  margin: 1rem 0;         
+  display: block;
+  margin: 1rem auto;     /* centers the image */
+  height: 200px;         /* adjust size to fit your header */
+  width: 200px;          /* square shape */
+  border-radius: 50%;    /* makes it circular */
+  object-fit: cover;     /* crops properly if image isn’t square */
+  border: 3px solid #2563eb; /* optional accent border */
 }
 
 @media (max-width: 600px) {
@@ -66,6 +68,7 @@ body {
     width: 120px;
   }
 }
+
 
 .site-header p.intro,
 .site-header h1,
