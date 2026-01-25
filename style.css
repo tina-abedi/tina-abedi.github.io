@@ -51,6 +51,29 @@ body {
   font-style: italic;
 }
 
+.profile-img {
+  height: 200px;          
+  width: 200px;              
+  border-radius: 50%;       
+  object-fit: cover;   
+  border: 3px solid var(--accent); 
+  margin: 1rem 0;         
+}
+
+@media (max-width: 600px) {
+  .profile-img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.site-header p.intro,
+.site-header h1,
+.site-header p.tagline {
+  margin: 0.25rem 0;
+}
+
+
 
 main {
   max-width: 800px;
