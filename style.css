@@ -92,11 +92,11 @@ h1, h2, h3 {
 }
 
 .email-button:hover {
-  background-color: #1e4fd8;
+  background-color: #292253;
 }
 
 .site-header {
-  outline: 3px solid red;
+  outline: 1px solid purple;
 }
 
 
