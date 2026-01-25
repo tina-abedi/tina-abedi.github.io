@@ -19,6 +19,7 @@ body {
 }
 
 .site-header {
+  outline: 1px solid purple;
   min-height: 100vh;     
   display: flex;
   flex-direction: column;
@@ -27,6 +28,7 @@ body {
 
   text-align: center;       
   padding: 0 1rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -78,8 +80,8 @@ h1, h2, h3 {
 
 .email-button {
   display: inline-block;
-  margin-top: 3rem;
-  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
 
   background-color: #292253;
   color: white;
@@ -94,10 +96,5 @@ h1, h2, h3 {
 .email-button:hover {
   background-color: #786CC1;
 }
-
-.site-header {
-  outline: 1px solid purple;
-}
-
 
 
