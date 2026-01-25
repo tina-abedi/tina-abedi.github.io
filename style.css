@@ -100,4 +100,9 @@ h1, h2, h3 {
   background-color: #1e4fd8;
 }
 
+.site-header {
+  outline: 3px solid red;
+}
+
+
 
