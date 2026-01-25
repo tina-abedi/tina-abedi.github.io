@@ -54,12 +54,12 @@ body {
 
 .profile-img {
   display: block;
-  margin: 1rem auto;     /* centers the image */
+  margin: 0.75rem auto;     /* centers the image */
   height: 200px;         /* adjust size to fit your header */
   width: 200px;          /* square shape */
-  border-radius: 50%;    /* makes it circular */
+  border-radius: 10%;    /* makes it circular */
   object-fit: cover;     /* crops properly if image isn’t square */
-  border: 3px solid #2563eb; /* optional accent border */
+  border: 1px solid purple; /* optional accent border */
 }
 
 @media (max-width: 600px) {
