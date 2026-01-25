@@ -88,15 +88,15 @@ h1, h2, h3 {
   background-color: var(--accent);
   color: white;
 
-  border-radius: 999px; /* pill-shaped */
+  border-radius: 999px;
   font-size: 1rem;
   text-decoration: none;
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
 }
 
 .email-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  background-color: #1e4fd8;
 }
+
 
