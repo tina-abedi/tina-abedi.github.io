@@ -54,7 +54,7 @@ body {
 
 .profile-img {
   display: block;
-  margin: 0.5rem auto;     /* centers the image */
+  margin: 1.5rem auto;     /* centers the image */
   height: 200px;         /* adjust size to fit your header */
   width: 200px;          /* square shape */
   border-radius: 10%;    /* makes it circular */
