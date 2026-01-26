@@ -59,6 +59,7 @@ body {
   width: 200px;          /* square shape */
   border-radius: 10%;    /* makes it circular */
   object-fit: cover;     /* crops properly if image isn’t square */
+  object-position: center 40%;
   border: 1px solid purple; /* optional accent border */
 }
 
