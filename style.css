@@ -10,72 +10,59 @@
 
 body {
   font-family: "Concert One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
 }
 
+/* HEADER & CENTERING */
 .site-header {
-  outline: 1px solid purple;
-  min-height: 100vh;     
+  min-height: 80vh;     
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  font-size: clamp(2.2rem, 4.5vw, 3rem);
-  font-weight: 400;
-
+  align-items: center; /* Centers items horizontally */
   text-align: center;       
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   margin-bottom: 3rem;
 }
 
-.site-header .intro {
-  font-size: 1.5rem;
-  color: #0D0910;
-  margin-bottom: 0.2rem;
-}
-
-.site-header h1 {
-  font-size: clamp(2rem, 4vw, 2.6rem);
-  font-weight: 400;
-  margin-bottom: 0.3rem;
-}
-
-.site-header .tagline {
-  font-size: 1.75rem;
-  color: #0D0910;
-  font-style: italic;
-}
-
-
 .profile-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px; /* Or whatever size you prefer */
-    height: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Keeps photo from stretching */
+  margin: 1.5rem auto; /* Top/Bottom margin 1.5rem, Left/Right Auto */
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 600px) {
   .profile-img {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
   }
 }
 
-
-.site-header p.intro,
-.site-header h1,
-.site-header p.tagline {
-  margin: 0.25rem 0;
+/* TYPOGRAPHY */
+.site-header .intro {
+  font-size: 1.5rem;
+  color: #0D0910;
 }
 
+.site-header h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin: 0.5rem 0;
+}
 
+.site-header .tagline {
+  font-size: 1.5rem;
+  color: #0D0910;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
 
+/* MAIN CONTENT */
 main {
   max-width: 800px;
   margin: auto;
@@ -83,11 +70,12 @@ main {
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
-h1, h2, h3 {
-  line-height: 1.25;
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .project {
@@ -98,41 +86,25 @@ h1, h2, h3 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.project a {
-  color: var(--accent);
+/* BUTTONS */
+.email-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #292253;
+  color: white;
+  border-radius: 999px;
   text-decoration: none;
-  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
-.tech {
-  color: var(--muted);
-  font-size: 0.9rem;
+.email-button:hover {
+  background-color: #786CC1;
+  transform: translateY(-2px);
 }
 
 .site-footer {
   text-align: center;
   color: var(--muted);
-  font-size: 0.9rem;
-  margin: 4rem auto 2rem;
+  padding: 4rem 0 2rem;
 }
-
-.email-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.75rem 1rem;
-
-  background-color: #292253;
-  color: white;
-
-  border-radius: 999px;
-  font-size: 1rem;
-  text-decoration: none;
-
-  cursor: pointer;
-}
-
-.email-button:hover {
-  background-color: #786CC1;
-}
-
-
